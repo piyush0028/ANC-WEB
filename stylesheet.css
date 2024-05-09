@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.bg-img {
+    height: 90vh;
+    width: 100%;
+    position: fixed;
+    opacity: 0.6;
+}
+
+header {
+    height: 13vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.269);
+    position: fixed;
+    /* opacity: 0.6; */
+}
+
+.box-1 {
+    display: flex;
+    height: 13vh;
+    /* background-color: red; */
+    display: flex;
+}
+
+ul {
+    display: flex;
+    gap: 22vh;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: large;
+}
+
+.box-left {
+    height: 13vh;
+    width: 10% ;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-rigth {
+    /* background-color: red; */
+    height: 13vh;
+    width: 100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.logo {
+    height: 12vh;
+    width: 12vh;
+    padding: 1vh;
+
+}
+
+li:hover {
+    background-color: grey;
+    opacity: 0.8;
+    cursor: pointer;
+    /* font-size: larger; */
+    border-radius: 3px;
+    color: white;
+}
+
+p {
+    position: fixed;
+    height: 40vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.169);
+    display: flex;
+    top: 220px;
+    border-radius: 5px;
+}
+
+h1 {
+    position: fixed;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 220px;
+    color: white;
+   
+
+}
+
+h2 {
+    position:fixed;
+    top: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:     center;
+    color: white;
+}
+
+footer {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 90vh;
+    display: flex;
+    flex-direction: column;
+margin: 5px;
+    text-align: center;
+}
+
+.reserve {
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    height: 40px;
+    width: 100%;
+    background-color: white;
+}
+
